@@ -1,0 +1,35 @@
+@media (max-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  #resultados {
+    display: none;
+  }
+
+  .nav-bar ul a {
+    font-size: 10px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1250px) {
+  #funciona {
+    display: none;
+  }
+  .nav-bar {
+    gap: 10px;
+    padding: 0 30px;
+  }
+  .nav-bar ul a {
+    font-size: 13px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
